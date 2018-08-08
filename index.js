@@ -15,19 +15,13 @@ function lowerCaseDrivers(drivers) {
  
 }
 
-function attributesToPhrase(drivers) {
+  function attributesToPhrase(drivers) {
   return drivers.map(function(driver) {
   return driver.name + 'is from' + driver.hometown
   })
+  }
+  
+  
 
 
 
-
-
-const drivers = [
-        { name: 'Bobby',   hometown: 'Pittsburgh'  },
-        { name: 'Sammy',   hometown: 'New York'    },
-        { name: 'Sally',   hometown: 'Cleveland'   },
-        { name: 'Annette', hometown: 'Los Angeles' },
-        { name: 'Bobby',   hometown: 'Tampa Bay'   }
-      ];
